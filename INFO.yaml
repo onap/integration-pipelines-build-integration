@@ -1,0 +1,67 @@
+---
+project: 'integration/pipelines/build-integration'
+project_creation_date: '2023-02-01'
+lifecycle_state: 'Incubation'
+project_category: ''
+project_lead: &onap_integration_ptl
+    name: 'Michal Jagiello'
+    email: 'Michal.Jagiello@t-mobile.pl'
+    company: 'T-Mobile'
+    id: 'MichalJagielloTMPL'
+    timezone: 'Europe/Warsaw'
+primary_contact: *onap_integration_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.onap.org/projects/INT'
+    key: 'INT'
+mailing_list:
+    type: 'groups.io'
+    url: 'lists.onap.org'
+    tag: 'integration'
+realtime_discussion: ''
+meetings:
+    - type: 'zoom'
+      agenda: 'https://wiki.onap.org/display/DW/Integration+Meeting+Minutes'
+      url: 'https://wiki.onap.org/pages/viewpage.action?pageId=6593670'
+      server: 'n/a'
+      channel: 'n/a'
+      repeats: 'weekly'
+      time: '14:00 UTC'
+repositories:
+    - 'integration/pipelines/build-integration'
+committers:
+    - <<: *onap_integration_ptl
+    - name: 'Catherine Lefevre'
+      email: 'cl664y@att.com'
+      company: 'AT&T'
+      id: 'Katel34'
+      timezone: 'Europe/Brussels'
+    - name: 'Krzysztof Kuzmicki'
+      email: 'krzysztof.kuzmicki@nokia.com'
+      company: 'nokia'
+      id: 'kkuzmick'
+      timezone: 'Europe/Warsaw'
+    - name: 'Andreas Geissler'
+      email: 'andreas-geissler@telekom.de'
+      company: 'Deutsche Telekom'
+      id: 'andreasgeissler'
+      timezone: 'Europe/Berlin'
+    - name: 'Michal Jagiello'
+      email: 'Michal.Jagiello@t-mobile.pl'
+      company: 'T-Mobile'
+      id: 'MichalJagielloTMPL'
+      timezone: 'Europe/Warsaw'
+    - name: 'Lukasz Rajewski'
+      email: 'lukasz.rajewski@t-mobile.pl'
+      company: 'T-Mobile'
+      id: 'rajewluk'
+      timezone: 'Europe/Warsaw'
+    - name: 'Fiachra Corcoran'
+      email: 'fiachra.corcoran@est.tech'
+      company: 'Ericsson'
+      id: 'efiacor'
+      timezone: 'Europe/Dublin'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://lists.onap.org/pipermail/onap-tsc'
+    changes:
