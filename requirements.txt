@@ -1,0 +1,2 @@
+pygerrit2
+requests
